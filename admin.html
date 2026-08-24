@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Portofolio 🌊</title>
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+  <div class="admin-container">
+    <h1>🔐 Admin Panel</h1>
+    <p>Kelola isi portofolio kamu di sini.</p>
 
+    <!-- Form konfigurasi GitHub -->
+    <div class="config-card">
+      <h3>Konfigurasi GitHub</h3>
+      <label>Personal Access Token</label>
+      <input type="password" id="token" placeholder="ghp_xxxx atau github_pat_xxxx">
+      <label>Owner (username GitHub)</label>
+      <input type="text" id="owner" placeholder="username">
+      <label>Nama Repository</label>
+      <input type="text" id="repo" placeholder="portfolio-ocean">
+      <label>Path File JSON</label>
+      <input type="text" id="path" value="data/portfolio.json">
+      <button onclick="loadData()">📥 Load Data</button>
+    </div>
+
+    <!-- Editor JSON -->
+    <div class="editor-card">
+      <h3>Edit Data Portofolio (JSON)</h3>
+      <textarea id="jsonEditor" rows="20" placeholder='{"profile": {...}, "skills": [...]}'></textarea>
+      <button onclick="saveData()">💾 Simpan ke GitHub</button>
+    </div>
+
+    <div id="status"></div>
+  </div>
+
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>
