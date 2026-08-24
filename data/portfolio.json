@@ -1,1 +1,41 @@
-
+{
+  "profile": {
+    "name": "Nama Kamu",
+    "title": "Web Developer & Designer",
+    "bio": "Saya adalah pengembang web yang bersemangat menciptakan pengalaman digital yang indah dan fungsional.",
+    "avatar": "https://avatars.githubusercontent.com/u/000000?v=4",
+    "email": "email@example.com",
+    "location": "Indonesia",
+    "social": {
+      "github": "https://github.com/username",
+      "linkedin": "https://linkedin.com/in/username",
+      "twitter": "https://twitter.com/username"
+    }
+  },
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+  "projects": [
+    {
+      "title": "Proyek Keren 1",
+      "description": "Aplikasi web untuk manajemen tugas dengan fitur drag & drop.",
+      "image": "https://via.placeholder.com/400x300",
+      "tags": ["React", "Tailwind"],
+      "link": "https://github.com/username/proyek1"
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Frontend Developer",
+      "company": "PT Teknologi Maju",
+      "period": "2023 - Sekarang",
+      "description": "Mengembangkan antarmuka pengguna untuk platform e-commerce."
+    }
+  ],
+  "education": [
+    {
+      "degree": "S1 Teknik Informatika",
+      "institution": "Universitas Indonesia",
+      "period": "2019 - 2023",
+      "description": "Lulus dengan predikat cumlaude."
+    }
+  ]
+}
